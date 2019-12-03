@@ -11,6 +11,9 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+import dj_database_url
+prod_db  =  dj_database_url.config(conn_max_age=500)
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -25,7 +28,7 @@ SECRET_KEY = 'ed_ni!h!kxg-*t_7zjy$$d&2kqkd-tadksh4k*3o@l@rt0-nwf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://urbanstop.herokuapp.com/','127.0.0.1']
+ALLOWED_HOSTS = ['https://urbanstops.herokuapp.com/','127.0.0.1']
 
 
 # Application definition
@@ -138,3 +141,4 @@ STATICFILES_DIRS = (
 import django_heroku
 django_heroku.settings(locals())
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+DATABASES['default'].update(prod_db)

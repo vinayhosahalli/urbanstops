@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94f03ac5-364e-4c26-a6c5-a985dcd45421" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/Internship_Task.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urbanstops/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/urbanstops/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,7 +95,7 @@
       <updated>1575326943236</updated>
       <workItem from="1575327083313" duration="1158000" />
       <workItem from="1575328715933" duration="5053000" />
-      <workItem from="1575335566632" duration="1460000" />
+      <workItem from="1575335566632" duration="1881000" />
     </task>
     <servers />
   </component>
