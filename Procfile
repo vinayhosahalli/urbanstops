@@ -1,1 +1,1 @@
-web: gunicorn urbanstops.wsgi --log-file -
+web: gunicorn urbanstops.wsgi
